@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css.css">
+    <title> Project </title>
+</head>
+<body>
+    <div class="backg">
+        <h1>User List</h1>
+    <!--Krijimi i formes-->
+    <form id="listForm">
+    <input type="text" placeholder="Emri" id="name" required minlength="2" class="border" >
+    <select id="select" class="border" required>
+        <option>...</option>
+        <option>Student</option>
+        <option>Mësues</option>
+    </select> 
+     
+    <button type="submit" class="border"> + Shto </button> 
+    <br>
+
+    <!--Krijimi i search-->
+    <input class="a" type="search"  id="searchBox" placeholder="Kerko..."  > 
+    <i class="fa-solid fa-magnifying-glass"> </i>
+    <!--Lista e perdoruesve-->
+    <ul id="userList">
+       
+    </ul>
+
+   </div>
+  
+    <script src="js.js"></script>
+</body>
+
+</html>

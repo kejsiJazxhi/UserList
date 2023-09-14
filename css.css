@@ -1,0 +1,96 @@
+html {
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background-image: url(img/computer-820281_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
+}
+form{
+    margin: 40px;
+}
+.border{
+    border-radius: 5px;
+}
+form>select{
+   height: 30px;
+   
+}
+input{
+    height: 25px;
+}
+input.a{
+    height: 25px;
+}
+.a{
+    margin-top: 30px;
+  background-color: white;
+  border-radius: 5px;
+ 
+} 
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+h1{
+   
+    padding-top:30px;
+   
+}
+.backg{
+    background-color:rgb(174, 174, 174);
+    margin-left: 35%;
+    margin-top: 50px;
+    width: 400px;
+    height: 500px;
+    border-radius: 40px;
+    text-align: center;
+    ;
+}
+
+button:hover{
+    color: green;
+}
+button.border{
+    background-color: rgb(179, 184, 192);
+    border-style:double;
+    height: 30px;
+   
+}
+button.delete{
+    background-color: rgb(158, 41, 41);
+     border-radius: 20px;
+     margin: 10px;
+     float:right;
+     width: 30px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+   
+}
+.card{
+     margin: 10px 0;
+     padding: 10px;
+     display: flex;
+     justify-content: space-evenly;
+     border-radius: 5px;
+     border: 1px solid black;
+     background-color: rgb(243, 242, 242);
+    
+    }
+
+.lt{
+    display: flex;
+    flex-direction: column;
+}
+#userList{
+    max-height: 250px;
+    overflow-y: auto;
+    
+}
